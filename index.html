@@ -1,55 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
+<html lang="en-us">
+
+  <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aeronyde Trivia Game</title>
+    <title>AERONYDE Trivia Game</title>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet" type="text/css">
 
-</head>
+  </head>
 
-<body>
- <div class="container">
-        
-    <h4>Welcome to the Aeronyde Trivia Game!</h4>
+  <body>
 
-     <h3 id="start"><button type="button" class="btn btn-light">START!</button></h3>
-
-
-    <div id="timerDiv" class="timer">
-        <label id="timeout"></label>
-    </div>
-   
-    <div id="questionDiv">
-        <div id="textDiv" class="question"></div>
+    <div id="wrapper">
+      <h1>Aeronyde Trivia Game!</h1>
+      <div id="sub-wrapper">
+        <div id="quiz-area">
+          <button id="start">Start</button>
+        </div>
+      </div>
     </div>
 
-    <div id="answerDiv">
-        <div id="textDiv" class="answer"></div>
-    </div>
-
-    <div id="resultDiv">
-        <div id="finalDiv" class="correct"></div>
-        <div id="textDiv" class="incorrect"></div>
-        <div id="textDiv" class="unanswer"></div>
-        <button id="restart-btn" class="btn btn-trivia">RESTART</button>
-    </div>
-
-
-
-</div>
-
-</div>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
-</body>
+
+  </body>
 
 </html>
+
